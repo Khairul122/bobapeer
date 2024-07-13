@@ -1,0 +1,28 @@
+ERROR - 2024-07-13 06:47:07 --> Error connecting to the database: Unknown database 'cafein'
+CRITICAL - 2024-07-13 06:47:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cafein'
+#0 C:\laragon\www\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cafein\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2024-07-13 06:47:18 --> Error connecting to the database: Unknown database 'cafein'
+CRITICAL - 2024-07-13 06:47:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cafein'
+#0 C:\laragon\www\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cafein\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
